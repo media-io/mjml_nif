@@ -11,4 +11,4 @@ crate-type = ["dylib"]
 
 [dependencies]
 rustler = "0.22.0-rc.0"
-mrml = "0.2.0"
+mrml = {version = "0.3.0", git = "https://github.com/media-io/mrml.git" }
